@@ -18,6 +18,12 @@
         public string? Status { get; set; }
         public string? ImagePath { get; set; }
 
+        public string Description { get; set; }
+        public string CompanyName { get; set; }
+        public string? CompanyWebsite { get; set; }
+        public string SSN { get; set; }
+        public bool AcceptTerms { get; set; }
+
         public string Token { get; set; }
         public List<string> Roles { get; set; }
     }
